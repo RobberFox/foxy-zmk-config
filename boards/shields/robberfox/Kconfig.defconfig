@@ -1,0 +1,6 @@
+if SHIELD_ROBBERFOX
+
+config ZMK_KEYBOARD_NAME
+	default "robberfox"
+
+endif

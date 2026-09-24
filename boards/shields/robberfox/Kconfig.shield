@@ -1,0 +1,2 @@
+config SHIELD_ROBBERFOX
+	def_bool $(shields_list_contains, robberfox)

@@ -1,3 +1,5 @@
+name: zmk-keyboard-robberfox
+
 build:
   settings:
     board_root: .
