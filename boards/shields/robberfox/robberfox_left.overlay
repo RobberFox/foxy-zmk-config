@@ -1,4 +1,4 @@
-#include "<keyboard_name>.overlay"
+#include "robberfox.overlay"
 
 &chosen {
     zmk,kscan = &default_kscan;

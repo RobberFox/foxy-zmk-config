@@ -1,2 +1,5 @@
-config SHIELD_ROBBERFOX
-	def_bool $(shields_list_contains, robberfox)
+config SHIELD_ROBBERFOX_LEFT
+    def_bool $(shields_list_contains,robberfox_left)
+
+config SHIELD_ROBBERFOX_RIGHT
+    def_bool $(shields_list_contains,robberfox_right)
