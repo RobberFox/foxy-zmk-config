@@ -1,6 +1,17 @@
+if SHIELD_ROBBERFOX_LEFT
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "robberfox"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
 if SHIELD_ROBBERFOX_LEFT || SHIELD_ROBBERFOX_RIGHT
 
-config ZMK_KEYBOARD_NAME
-	default "robberfox"
+config ZMK_SPLIT
+    default y
 
 endif
